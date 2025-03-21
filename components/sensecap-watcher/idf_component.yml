@@ -44,3 +44,9 @@ dependencies:
   # esp_io_expander_pca95xx_16bit:
   #   override_path: "../esp_io_expander_pca95xx_16bit"
 
+  esp_io_expander_pca95xx_16bit:
+    git: https://github.com/EmbeddedActivities/SenseCAP-Watcher-Firmware.git
+    path: components/esp_io_expander_pca95xx_16bit
+  sscma_client:
+    git: https://github.com/EmbeddedActivities/SenseCAP-Watcher-Firmware.git
+    path: components/sscma_client
