@@ -3,7 +3,8 @@ dependencies:
     version: '>=4.4'
   lvgl/lvgl:
     git: https://github.com/EmbeddedActivities/SenseCAP-Watcher-Firmware.git
-    path: components/lvgl    
+    path: components/lvgl 
+    
 description: ESP LVGL port
 url: https://github.com/espressif/esp-bsp/tree/master/components/esp_lvgl_port
 version: 1.4.0
