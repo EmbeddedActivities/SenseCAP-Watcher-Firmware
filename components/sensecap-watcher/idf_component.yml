@@ -10,6 +10,10 @@ dependencies:
   # espressif/esp_lvgl_port:
   #   override_path: "../esp_lvgl_port"
 
+  espressif/esp_lvgl_port:
+    git: https://github.com/EmbeddedActivities/SenseCAP-Watcher-Firmware.git
+    path: components/esp_lvgl_port  
+    
   espressif/esp_lcd_spd2010:
     version: "1.0.1"
     public: true
