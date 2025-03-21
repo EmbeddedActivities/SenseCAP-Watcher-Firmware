@@ -7,8 +7,8 @@ targets:
 dependencies:
   idf: ">=5.2.0"
 
-  espressif/esp_lvgl_port:
-    override_path: "../esp_lvgl_port"
+  # espressif/esp_lvgl_port:
+  #   override_path: "../esp_lvgl_port"
 
   espressif/esp_lcd_spd2010:
     version: "1.0.1"
@@ -34,9 +34,9 @@ dependencies:
     version: "0.1.4"
     public: true
 
-  sscma_client:
-    override_path: "../sscma_client"
+  # sscma_client:
+  #   override_path: "../sscma_client"
 
-  esp_io_expander_pca95xx_16bit:
-    override_path: "../esp_io_expander_pca95xx_16bit"
+  # esp_io_expander_pca95xx_16bit:
+  #   override_path: "../esp_io_expander_pca95xx_16bit"
 
